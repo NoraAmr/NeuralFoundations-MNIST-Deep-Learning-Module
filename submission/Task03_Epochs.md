@@ -24,7 +24,7 @@ history3= model3.fit(
     validation_data=(x_val,y_val))
 ```
 ## 3. Results
-Epoch 5
+### Epoch 5
 
 Training Loss: Decreased from 0.5251 to 0.0542
 
