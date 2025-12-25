@@ -32,17 +32,18 @@ Validation Loss: Decreased from 0.1309 to 0.0809
 
 The training and validation loss curves are close and both are decreasing.
 
-Epoch 10
+### Epoch 10
 
 Training loss keeps decreasing.
 
 Validation loss starts to increase from epoch 7 to epoch 10.
 
 This shows the beginning of overfitting.
+
 <img width="576" height="432" alt="image-2" src="https://github.com/user-attachments/assets/94fd6a08-bff4-47f1-b0e0-f1078bd496aa" />
 
 
-Epoch 20
+### Epoch 20
 
 Training loss continues to decrease.
 
