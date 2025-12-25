@@ -24,7 +24,8 @@ print("Predicted digit:", predicted_class)
 ## 3. Results
 
 * **Prediction output:** The image was recognized correctly as the number **5**.
-![alt text](image-1.png)
+<img width="416" height="413" alt="image-1" src="https://github.com/user-attachments/assets/7a21fd9b-02d1-48b1-89e2-20e2489fec0c" />
+
 ## 4. Short Analysis
 
 The image was recognized correctly as the number **5** because it has the same features as the dataset the model was trained on.
