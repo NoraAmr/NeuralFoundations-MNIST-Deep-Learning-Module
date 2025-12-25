@@ -41,9 +41,9 @@ model10.compile(
 
 5 epochs: Training did not stop.
 
-10 epochs: Training did not stop.
+10 epochs: Training stopped at epoch 7
 
-20 epochs: Training stopped at epoch 9.
+20 epochs: Training stopped at epoch 8.
 
 <img width="576" height="432" alt="image-8" src="https://github.com/user-attachments/assets/e32cdc17-b334-4af2-9a7c-602c7eb08eb3" />
 
