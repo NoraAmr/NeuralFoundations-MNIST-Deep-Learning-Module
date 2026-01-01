@@ -31,10 +31,15 @@ SGD showed very stable behavior but had the slowest convergence.
 SGD with Momentum trained faster than plain SGD but showed instability in validation loss.
 
 A noticeable jump in validation loss was observed with SGD with Momentum (from 0.0788 to 0.0835 at epoch 5), indicating overshooting.
-![alt text](image-11.png)
-![alt text](image-12.png)
-![alt text](image-13.png)
-![alt text](image-14.png)
+
+<img width="576" height="432" alt="image" src="https://github.com/user-attachments/assets/7e23ea49-63f6-4660-9bef-0bff2e3cdda3" />
+
+<img width="567" height="455" alt="image" src="https://github.com/user-attachments/assets/988aaba8-ecdd-4e73-9837-302e0bb53ff6" />
+
+<img width="579" height="455" alt="image" src="https://github.com/user-attachments/assets/8cd7deb6-44a3-440a-a6ed-229839274f65" />
+
+<img width="576" height="455" alt="image" src="https://github.com/user-attachments/assets/37f3771d-78e2-49c0-81c1-ac69247bdd8d" />
+
 ## 4. Short Analysis
 
 SGD is very stable but slow because it uses a single learning rate and is sensitive to local noise. When the slope is small, updates become tiny, which can cause the optimizer to move slowly or get stuck in shallow local minima.
@@ -48,5 +53,6 @@ AdamW builds on Adam by separating weight decay from the gradient update. This e
 Overall, Adam often outperforms classical optimizers because it combines momentum and RMSProp concepts, treating each parameter independently instead of updating all weights equally.
 
 ## 5. Key Takeaway
+
 
 AdamW provides the best balance between fast convergence and stable generalization, making it a strong choice compared to SGD, SGD with Momentum, and Adam.
