@@ -21,6 +21,17 @@ The objective of this task is to analyze how batch size influences training stab
 - Large batches reached lower training loss faster.
 - Small batches often showed better validation performance.
 
+<img width="584" height="455" alt="image" src="https://github.com/user-attachments/assets/e00d05ae-58d3-478c-bfff-5affaaff42ec" />
+
+<img width="576" height="455" alt="image" src="https://github.com/user-attachments/assets/849edeb7-8036-422f-ad75-1dc67b01b9c0" />
+
+<img width="576" height="455" alt="image" src="https://github.com/user-attachments/assets/f69e547d-fa0a-4b9f-bdd7-e8e9a0ec7b4d" />
+
+
+
+
+
+
 ---
 
 ### 4. Short Analysis
@@ -34,3 +45,4 @@ Despite faster convergence, large batches often generalize worse. The clean grad
 
 ### 5. Key Takeaway
 Small batch sizes improve generalization by adding helpful noise, while large batch sizes train faster but are more likely to overfit and get stuck in sharp minima.
+
