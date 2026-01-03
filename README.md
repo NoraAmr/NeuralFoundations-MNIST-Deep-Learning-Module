@@ -48,13 +48,13 @@ The MNIST dataset is automatically downloaded using tensorflow.keras.datasets.
 
 Examples of saved results can be found in the results/ folder:
 
-Training and validation loss curves
+- Training and validation loss curves
 
-Accuracy plots
+- Accuracy plots
 
-Optimizer comparison curves
+- Optimizer comparison curves
 
-Prediction examples for test and custom images
+- Prediction examples for test and custom images
 
 These plots demonstrate overfitting behavior, convergence speed, and generalization differences across experiments.
 
