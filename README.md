@@ -37,7 +37,7 @@ The notebook is divided into **three main sections**:
    ```
 2. Open the notebook:
 ```bash
-jupyter notebook Nural_project.ipynb
+jupyter notebook notebook.ipynb
 ```
 
 3. Run all cells from top to bottom.
